@@ -1,4 +1,5 @@
 terraform.tfstate*
+terraform.tfstate.d
 image/terraform.tfstate*
 image/.terraform
 container/terraform.tfstate*

@@ -1,4 +1,4 @@
-#terraform-docker
+# terraform-docker
 
 
 To dynamically deploy infrastructure configurations based on information we pass to the deployment, change the "env" variable in the root variables.tf file

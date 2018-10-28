@@ -11,3 +11,9 @@ module "container" {
   ghost_container_external_port = "${lookup(var.ghost_container_external_port, var.env)}"
 } 
 
+resource "null_resource" "ghost_null_id" {
+  provisioner "local-exec" {
+    command = "echo ${module.container.ghost_container_name}:${module.container.ghost_container_ip_address} >> container.txt"
+    }
+}
+

@@ -1,3 +1,5 @@
 ./terraform.tfstate*
 image/terraform.tfstate*
+image/.terraform
 container/terraform.tfstate*
+container/./terraform

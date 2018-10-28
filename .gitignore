@@ -1,0 +1,4 @@
+.terraform
+./terraform-docker/terraform.tfstate*
+./terraform-docker/image/terraform.tfstate*
+./terraform-docker/container/terraform.tfstate*
